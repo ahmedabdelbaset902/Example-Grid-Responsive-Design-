@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  height: 100px;
+  text-align: center;
+  width: 100%;
+
+}
+
+header {background-color: rgb(255, 185, 7); width: 100;order:0 ;}
+.red { background-color:red;width: 50%;order:1 ;}
+.orange {background-color: orange; width: 50%;order:2 ;}
+footer {background-color: rgb(41, 173, 129); width: 100%;order:3 ;}
+.light_blue {background-color: rgb(65, 188, 229); width: 20%;order:4 ;}
+.dark_blue {background-color: darkblue; width: 60%;order:5 ;}
+.green {background-color: green; width: 20%;order:6 ;}
